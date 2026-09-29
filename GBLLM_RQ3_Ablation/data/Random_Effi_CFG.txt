@@ -1,0 +1,218 @@
+# 1 (def definition)
+def is_prime(I):
+    # 2 (if branch)
+    if I == 1:
+        # 3
+        return
+    # 4 (if branch)
+    if I == 2:
+        # 5
+        return
+        # 6 (for loop)
+        for i in range(2, int(I ** 0.5) + 1):
+            # 7 (if branch)
+            if I % i == 0:
+                # 8
+                return
+        # 9
+        return
+# 10 [input]
+pass
+# 11 (while loop)
+while True:
+    # 12 (if branch)
+    if is_prime(i * n + 1) != True:
+        # 13
+        print
+        break
+    # 14
+    pass
+
+"""
+1 -> 2
+2 -> 3 [I == 1]
+2 -> 4
+4 -> 5 [I == 2]
+4 -> 6 [(I != 2)]
+6 -> 7 [range(2, int(I ** 0.5) + 1)]
+6 -> 9
+7 -> 8 [I % i == 0]
+7 -> 6
+10 -> 11
+11 -> 12 [True]
+12 -> 13 [is_prime(i * n + 1) != True]
+12 -> 14
+14 -> 11
+"""
+
+
+# 1 [input]
+pass
+# 2 (for loop)
+for _ in range(t):
+    # 3 [input, map, split, set, list]
+    pass
+    # 4 (for loop within loop)
+    for i in range(1, max(lst) + 1):
+        # 5 (if branch)
+        if i not in sett:
+            # 6
+            pass
+    # 7 (if branch)
+    if s == 0:
+        # 8
+        pass
+    # 9 (if branch)
+    if s < 0:
+        # 10
+        pass
+        # 11 [max]
+        pass
+        # 12 (while loop within loop)
+        while s > 0:
+            # 13
+            pass
+        # 14 (if branch)
+        if s < 0:
+            # 15
+            pass
+            # 16
+            pass
+    # 17 (if branch)
+    if ans:
+        # 18
+        print
+        # 19
+        print
+
+"""
+1 -> 2
+2 -> 3 [range(t)]
+3 -> 4
+4 -> 5 [range(1, max(lst) + 1)]
+4 -> 7
+5 -> 6 [i not in sett]
+5 -> 4
+7 -> 8 [s == 0]
+7 -> 9 [(s != 0)]
+7 -> 17
+9 -> 10 [s < 0]
+9 -> 11 [(s >= 0)]
+11 -> 12
+12 -> 13 [s > 0]
+12 -> 14 [(s <= 0)]
+13 -> 12
+14 -> 15 [s < 0]
+14 -> 16 [(s >= 0)]
+17 -> 18 [ans]
+17 -> 19 [(not ans)]
+17 -> 2
+"""
+
+
+# 1 (import package)
+import math
+# 2 (if branch)
+if x == 1:
+    # 3
+    print
+    # 4 [sqrt]
+    level = math.sqrt(x)
+    # 5 (for loop)
+    for i in range(1, n + 1):
+        # 6 (if branch)
+        if i >= level:
+            # 7 (if branch)
+            if i == level:
+                # 8
+                pass
+            # 9
+            break
+        # 10 (if branch)
+        if x % i == 0:
+            # 11 (if branch)
+            if x <= n * i:
+                # 12
+                pass
+    # 13
+    print
+
+"""
+1 -> 2
+2 -> 3 [x == 1]
+2 -> 4 [(x != 1)]
+4 -> 5
+5 -> 6 [range(1, n + 1)]
+5 -> 13
+6 -> 7 [i >= level]
+6 -> 10 [(i < level)]
+6 -> 5
+7 -> 8 [i == level]
+7 -> 9
+10 -> 11 [x % i == 0]
+11 -> 12 [x <= n * i]
+"""
+
+
+# 1 (def definition)
+def func():
+    # 2 [split, strip, list, sorted, input, map]
+    pass
+    # 3 (for loop)
+    for i in range(0, n - 1):
+        # 4 (for loop within loop)
+        for j in range(i + 1, n):
+            # 5 (if branch)
+            if high[j] - high[i] <= d:
+                # 6
+                pass
+                # 7
+                break
+    # 8
+    print
+# 9 [func]
+pass
+
+"""
+1 -> 2
+2 -> 3
+3 -> 4 [range(0, n - 1)]
+3 -> 8
+4 -> 5 [range(i + 1, n)]
+4 -> 3
+5 -> 6 [high[j] - high[i] <= d]
+5 -> 7 [(high[j] - high[i] > d)]
+5 -> 4
+"""
+
+
+# 1 [input]
+pass
+# 2 (for loop)
+for i in A:
+    # 3 (if branch)
+    if i in l:
+        # 4
+        pass
+    # 5 (if branch)
+    if flg == 1:
+        # 6
+        break
+# 7 (if branch)
+if flg == 1:
+    # 8
+    print
+    # 9
+    print
+
+"""
+1 -> 2
+2 -> 3 [A]
+2 -> 7
+3 -> 4 [i in l]
+3 -> 5
+5 -> 6 [flg == 1]
+5 -> 2
+7 -> 8 [flg == 1]
+7 -> 9 [(flg != 1)]
+"""
